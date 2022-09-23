@@ -42,18 +42,18 @@ gradientLayer.colors = [
 gradientLayer.frame = layer.bounds
 layer.addSublayer(gradientLayer)
 
-// CALayer, CAGradientLayer
+ // CALayer, CAGradientLayer
 // let textLayer = CATextLayer()
-/*
- CATextLayer *label = [[CATextLayer alloc] init];
- [label setFont:@"Helvetica-Bold"];
- [label setFontSize:20];
- [label setFrame:validFrame];
- [label setString:@"Hello"];
- [label setAlignmentMode:kCAAlignmentCenter];
- [label setForegroundColor:[[UIColor whiteColor] CGColor]];
- [layer addSublayer:label];
- */
+//
+// CATextLayer *label = [[CATextLayer alloc] init];
+// [label setFont:@"Helvetica-Bold"];
+// [label setFontSize:20];
+// [label setFrame:validFrame];
+// [label setString:@"Hello"];
+// [label setAlignmentMode:kCAAlignmentCenter];
+// [label setForegroundColor:[[UIColor whiteColor] CGColor]];
+// [layer addSublayer:label];
+
 
 let shapeLayer = CAShapeLayer()
 // shapeLayer.path
